@@ -112,11 +112,11 @@ ul{
 
 .sect_one{
     background-color: #2E2F42;
-    padding: 188px 0;
+
     display:block;
     justify-content: center;
     padding-left:370px;
-    
+    padding: 188px 0 188px;
 }
 
 .sect_one-title{
@@ -184,11 +184,12 @@ h3{
 }
 
 .sect_two-li{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .sect_two-ul-title{
     color:#2e2f42;
+    margin-bottom: 8px
 }
 
 .sect_two-text{
@@ -265,10 +266,12 @@ h3{
 
 /* sect4*/
 .sect_four{
-    padding-top: 120px;
+    padding: 120px 0 120px 0;
 }
 
 .sect_four-title{
+    margin-bottom: 72px;
+
     line-height: 1.11;
     font-size: 36px;
     text-align: center;
@@ -341,6 +344,7 @@ h3{
 
 .footer-span{
     color: #F4F4FD;
+    display: inline-block;
 }
 
 .footer-text{
