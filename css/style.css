@@ -20,13 +20,9 @@ img{
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
+    
   }
-
- .header-inner{
-    display: flex;
- }
-
- .header-nav{
+ .header_nav{
     display: flex; 
     align-items: center;
 }
@@ -59,7 +55,7 @@ ul{
     display: inline-flex;
 }
 
-.nav-ul{
+.nav_ul{
     display: flex;
     gap:40px;
 }
